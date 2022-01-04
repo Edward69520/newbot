@@ -20,7 +20,7 @@ if($message == "/start"){
 if($message == "/cmds"){
     send_message($chat_id,$message_id, "
     !ch xxxxxxxxxxxxxxxx|xx|xxxx|xxx   
-    ");
+    /chk /info /we /cr /web /");
 }
 
 if($message == "/chk"){
@@ -33,6 +33,23 @@ if($message == "/info"){
     send_message($chat_id,$message_id, "
     este bot esta en mantenimiento |   
     ");
+}
+
+if($message == "/we"){
+    send_message($chat_id,$message_id, "
+    Este comando está en actualización |   
+    ");
+}
+
+if($message == "/cr"){
+    send_message($chat_id,$message_id, "
+    Donar crypto al creador |   
+    ");
+}
+
+if($message == "/web"){
+    send_message($chat_id,$message_id, "
+Aquí se coloca un link web xd");
 }
 
 //Gate 1
