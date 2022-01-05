@@ -14,7 +14,7 @@
     $gate1 = "xxxxxxxx/api.php"; /// Your Checker URl with api.php or chk.php
   //$gate2 = "";
 if($message == "/start"){
-    send_message($chat_id,$message_id, "Hey $firstname \nUse /cmds to View Commands \n$start_msg");
+    send_message($chat_id,$message_id, "🔥🔥Hey $firstname \nUse /cmds para ver los Comandos🔥🔥 \n$start_msg");
 }
 
 if($message == "/cmds"){
@@ -25,31 +25,31 @@ if($message == "/cmds"){
 
 if($message == "/chk"){
     send_message($chat_id,$message_id, "
-    para usar este comando necesitas premium |   
+    🔥🔥Hola senpai 😳, 💠para usar este comando necesitas ser Premium💠 |   
     ");
 }
 
 if($message == "/info"){
     send_message($chat_id,$message_id, "
-    este bot esta en mantenimiento |   
+    ⚡⚡Este bot esta en proceso, solo responde algunos comandos ⚡⚡ |   
     ");
 }
 
 if($message == "/we"){
     send_message($chat_id,$message_id, "
-    Este comando está en actualización |   
+    🍁Este bot esta echo sin conocimiento previo xD🍁  
     ");
 }
 
 if($message == "/cr"){
     send_message($chat_id,$message_id, "
-    Donar crypto al creador |   
+    senpai!, puedes Donar crypto a mi creador💎😽  
     ");
 }
 
 if($message == "/web"){
     send_message($chat_id,$message_id, "
-Aquí se coloca un link web xd");
+Aquí se coloca un link web ⚡🔥");
 }
 
 //Gate 1
